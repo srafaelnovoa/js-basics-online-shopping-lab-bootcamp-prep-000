@@ -20,6 +20,7 @@ function addToCart(item) {
 
 function viewCart() {
   // write your code here
+<<<<<<< HEAD
   var printOut = "In your cart, you have"
 
   if (cart.length > 0 ) {
@@ -49,6 +50,13 @@ function viewCart() {
     }
     printOut += "."
     console.log(printOut)
+
+
+  console.log("Your shopping cart is emptyz.")
+  if (cart.length > 0 ) {
+
+
+
   }
   else
   {
